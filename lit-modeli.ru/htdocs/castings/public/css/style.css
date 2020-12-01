@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*хэдер*/
+
+header { 
+	color: #000;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+.logo-top {
+	width: 50%;
+}
+
+.title {
+	display: block;
+	text-align: center;
+	font-size: 40px;
+}
+
+.contacts {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.contacts p {
+	margin-bottom: -15px;
+}
+
+.main {
+	width: 100%;
+}
+
+.header-container {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.button-text {
+	font-size: 9px;
+	display: inline-block;
+	line-height: 15px;
+}
+
+.search-button {
+	color: grey;
+	float: right;
+}
+
+/* навигационное меню */
+
+nav {
+	color: #12AA25;
+}
+#nav-mobile li a {
+	font-size: 20px; 
+	font-weight: bold; 
+	color: white;
+}
+#mobile-links li a {
+	color:#066E13; 
+	font-weight: bold;
+}
+
+
+/*основное тело сайта*/
+
+
+
+/*главная страница*/
+
+.main-points li {
+   font-size: 25px;
+   margin-left: 3%;
+   color: black; 
+}
+.main-points li i{
+	color: #12AA25;
+}
+
+.apply-button-text {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*страница контакты*/
+
+textarea {
+	height: 150px;
+}
+
+#send-order {
+	width: 150px;
+	height: 35px;
+	background: #FFB000;
+	font-size: 15px;
+	font-weight: bold;
+	
+}
+
+.icon_style{
+position: absolute;
+right: 10px;
+top: 10px;
+font-size: 20px;
+color: white;
+cursor:pointer; 
+}
+
+/*страница о компании*/
+
+
+/*страница каталог*/
+
+/*страница деталь*/
+
+#buy {
+	
+	display: flex;
+	flex-wrap: wrap;
+	display: inline-block;
+}
+
+/* футер */
+
+footer {
+	margin-top: 1%;
+}
+
+.footer-list li {
+	font-size: 15px;
+}
+
+/*h1 {
+	font-size: 24px;
+	text-align: center;
+}*/
+
+.logo-bottom {
+	width:25%;
+	margin-left: 15%;
+}
+
+/*
+.left-menu li.active {
+	background: #e3f2fd;
+}
+
+.input-field input[name="search"] {
+	width: 74%;
+}
+*/
+
+
+/*регулировка заголовка*/
+
+.title {
+	text-align: right;
+	margin-right: 10%;
+}
+@media screen and (max-width: 845px) {
+	.title {
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+	}
